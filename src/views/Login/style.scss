@@ -1,0 +1,75 @@
+.form-outer {
+    background: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.review-txt {
+    font-size: 15px;
+}
+.form-outer textarea {
+    width: 100%;
+}
+.form-outer input {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.dropzone {
+    text-align: center;
+    padding: 30px;
+    border: 3px dashed #eeeeee;
+    background-color: #fafafa;
+    color: #bdbdbd;
+}
+.review-heading span {
+    color: #3f51b5;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.MuiGrid-root ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+    color: #808080;
+}
+button.MuiButtonBase-root {
+    margin: 5px auto 10px;
+}
+.MuiGrid-root ul svg.MuiSvgIcon-root {
+    float: right;
+    color: red;
+    font-size: 19px;
+}
+.MuiGrid-root ul li:last-child {
+    margin-bottom: 0px;
+}
+.review-heading span {
+    color: #fff;
+    text-transform: capitalize;
+}
+.MuiCardHeader-root {
+    background: #3f51b5;
+}
+.MuiGrid-root ul li {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 5px 8px;
+    border-radius:3px;
+}
+.MuiGrid-root ul li:nth-child(odd) {
+    background: #ececec;
+}
+
+.MuiGrid-spacing-xs-3 > .MuiGrid-item > div {
+    width: 100%;
+    text-align: right;
+}
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-12 > div {
+    text-align: center;
+}
+
+
